@@ -37,7 +37,6 @@ def text_format(user_in, cpu_in):
         print('Unknown input, try again')
 
 print('Rock, Paper, Scissors Game (press q to quit)')
-user_in = ''
 while True:
     user_in = input('Player choice: ')
     if(user_in == 'q'):
